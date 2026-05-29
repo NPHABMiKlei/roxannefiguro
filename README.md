@@ -230,7 +230,7 @@ margin:8px;
 
 <header>
 <h1>🎀 Roxanne B. Figuro 🎀</h1>
-<p>My Strawberry Matcha Coquette Website</p>
+<p>My Personal Website</p>
 </header>
 
 <nav>
@@ -250,7 +250,7 @@ margin:8px;
 <div class="profile">
 
 <!-- CHANGE THIS TO YOUR PHOTO -->
-<img src="profile.jpg" alt="Profile Photo">
+<img src="att._tPH1nf4hrcZz_uwAIZO3CXXGj148E3thXRTp4pZJUM.jpeg" alt="Profile Photo">
 
 <h2>Welcome Message</h2>
 
