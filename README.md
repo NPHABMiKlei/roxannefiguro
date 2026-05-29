@@ -46,7 +46,7 @@ to{
 top:-10%;
 }
 }
-
+  
 header{
 background:linear-gradient(135deg,#ffd6e7,#d8f0d2);
 padding:80px 20px;
