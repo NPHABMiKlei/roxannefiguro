@@ -1,195 +1,224 @@
-# roxannefiguro
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Roxanne B. Figuro | Personal Website</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
 
 <style>
+
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
 }
 
 body{
-    font-family:'Poppins',sans-serif;
-    background:
-    radial-gradient(#ffd6e7 2px, transparent 2px),
-    radial-gradient(#fff3a6 2px, transparent 2px),
-    #f7f3e9;
-    background-size:40px 40px;
-    background-position:0 0,20px 20px;
-    color:#5b4a42;
+font-family:'Poppins',sans-serif;
+background:#f5dce5;
+background-image:
+radial-gradient(#3b1f1f 4px, transparent 4px);
+background-size:38px 38px;
+color:#5c4b51;
+}
+
+/* Floating Bows */
+
+.bow{
+position:fixed;
+font-size:25px;
+opacity:.3;
+animation:float 12s linear infinite;
+z-index:-1;
+}
+
+.bow:nth-child(1){left:10%;}
+.bow:nth-child(2){left:50%;animation-duration:15s;}
+.bow:nth-child(3){left:80%;animation-duration:18s;}
+
+@keyframes float{
+from{
+top:100%;
+}
+to{
+top:-10%;
+}
 }
 
 header{
-    background:linear-gradient(135deg,#f7d8e7,#d8f0d2);
-    text-align:center;
-    padding:60px 20px;
-    border-bottom:5px dashed #ffc0cb;
+background:linear-gradient(135deg,#ffd6e7,#d8f0d2);
+padding:80px 20px;
+text-align:center;
+border-bottom:6px dotted #c98aaa;
 }
 
 header h1{
-    font-family:'Playfair Display',serif;
-    font-size:3rem;
-    color:#c75c8c;
+font-family:'Playfair Display',serif;
+font-size:3rem;
+color:#b05d84;
 }
 
 header p{
-    margin-top:10px;
-    font-size:1.1rem;
+margin-top:10px;
+font-size:1.1rem;
 }
 
 nav{
-    background:#fff8fc;
-    padding:15px;
-    text-align:center;
-    position:sticky;
-    top:0;
-    z-index:100;
-    box-shadow:0 2px 10px rgba(0,0,0,.1);
+position:sticky;
+top:0;
+background:white;
+padding:15px;
+text-align:center;
+box-shadow:0 3px 10px rgba(0,0,0,.1);
+z-index:1000;
 }
 
 nav a{
-    text-decoration:none;
-    color:#c75c8c;
-    margin:0 15px;
-    font-weight:600;
+text-decoration:none;
+margin:0 15px;
+font-weight:600;
+color:#b05d84;
 }
 
 nav a:hover{
-    color:#8db58c;
+color:#7ba87f;
 }
 
 .container{
-    width:90%;
-    max-width:1100px;
-    margin:auto;
-    padding:40px 0;
+width:90%;
+max-width:1200px;
+margin:auto;
+padding:40px 0;
 }
 
 .section{
-    background:white;
-    padding:30px;
-    margin-bottom:30px;
-    border-radius:25px;
-    box-shadow:0 8px 20px rgba(0,0,0,.08);
-    border:3px solid #ffe4ef;
+background:rgba(255,255,255,.95);
+padding:30px;
+margin-bottom:30px;
+border-radius:25px;
+box-shadow:0 8px 20px rgba(0,0,0,.08);
+border:3px solid #ffdbe8;
 }
 
 .section h2{
-    color:#c75c8c;
-    margin-bottom:15px;
-    font-family:'Playfair Display',serif;
+color:#b05d84;
+margin-bottom:20px;
+font-family:'Playfair Display',serif;
 }
 
-.profile-card{
-    text-align:center;
+.profile{
+text-align:center;
 }
 
-.profile-card img{
-    width:180px;
-    height:180px;
-    border-radius:50%;
-    object-fit:cover;
-    border:6px solid #ffd4e5;
-    margin-bottom:20px;
+.profile img{
+width:200px;
+height:200px;
+border-radius:50%;
+object-fit:cover;
+border:6px solid #ffd4e5;
+margin-bottom:20px;
 }
 
-.info{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:15px;
-    margin-top:20px;
+.info-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:15px;
+margin-top:25px;
 }
 
-.box{
-    background:#fff8fc;
-    padding:15px;
-    border-radius:15px;
-    border:2px dashed #ffd4e5;
+.card{
+background:#fff7fb;
+padding:15px;
+border-radius:15px;
+border:2px dashed #ffc6dc;
 }
 
-.education-item{
-    margin-bottom:20px;
-    padding:15px;
-    background:#fdf9f2;
-    border-left:5px solid #cfe9c9;
-    border-radius:10px;
+.education{
+margin-bottom:20px;
+background:#fff7fb;
+padding:15px;
+border-left:5px solid #cde8c7;
+border-radius:12px;
 }
 
-.family-list li,
-.collection-list li{
-    margin:10px 0;
-}
-
-footer{
-    text-align:center;
-    padding:25px;
-    background:#fff8fc;
-    color:#c75c8c;
-    font-weight:500;
-}
-
-.bow{
-    position:fixed;
-    font-size:25px;
-    animation:float 8s infinite linear;
-    opacity:.4;
-}
-
-.bow:nth-child(1){
-    left:10%;
-    animation-duration:10s;
-}
-
-.bow:nth-child(2){
-    left:50%;
-    animation-duration:12s;
-}
-
-.bow:nth-child(3){
-    left:80%;
-    animation-duration:9s;
-}
-
-@keyframes float{
-    from{
-        top:100%;
-    }
-    to{
-        top:-10%;
-    }
+.family-list li{
+margin:12px 0;
 }
 
 .collection-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-    gap:15px;
-    margin-top:15px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
 }
 
 .collection-card{
-    background:#fff8fc;
-    padding:20px;
-    border-radius:15px;
-    text-align:center;
-    border:2px dashed #ffd4e5;
+background:#fff7fb;
+padding:20px;
+border-radius:20px;
+text-align:center;
+border:2px dashed #ffc6dc;
+transition:.3s;
 }
 
 .collection-card:hover{
-    transform:translateY(-5px);
-    transition:.3s;
+transform:translateY(-8px);
 }
 
+.collection-card span{
+font-size:2rem;
+display:block;
+margin-bottom:10px;
+}
+
+/* Gallery */
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+height:280px;
+object-fit:cover;
+border-radius:20px;
+border:5px solid white;
+box-shadow:0 5px 15px rgba(0,0,0,.15);
+transition:.4s;
+cursor:pointer;
+}
+
+.gallery img:hover{
+transform:scale(1.05);
+}
+
+footer{
+background:white;
+padding:20px;
+text-align:center;
+font-weight:600;
+color:#b05d84;
+}
+
+/* Responsive */
+
 @media(max-width:768px){
+
 header h1{
 font-size:2.2rem;
 }
+
+nav a{
+display:inline-block;
+margin:8px;
 }
+
+}
+
 </style>
 </head>
 
@@ -201,99 +230,106 @@ font-size:2.2rem;
 
 <header>
 <h1>🎀 Roxanne B. Figuro 🎀</h1>
-<p>Personal Website</p>
+<p>My Strawberry Matcha Coquette Website</p>
 </header>
 
 <nav>
-<a href="#about">About Me</a>
+<a href="#about">About</a>
 <a href="#education">Education</a>
 <a href="#family">Family</a>
 <a href="#collection">Collections</a>
+<a href="#gallery">Gallery</a>
 </nav>
 
 <div class="container">
 
-<section id="about" class="section">
-<div class="profile-card">
+<!-- ABOUT -->
 
-<!-- Replace profile.jpg with your image -->
-<img src="att._tPH1nf4hrcZz_uwAIZO3CXXGj148E3thXRTp4pZJUM.jpeg" alt="Roxanne">
+<section class="section" id="about">
+
+<div class="profile">
+
+<!-- CHANGE THIS TO YOUR PHOTO -->
+<img src="profile.jpg" alt="Profile Photo">
 
 <h2>Welcome Message</h2>
 
 <p>
 Hi! Welcome to my personal website.
-This website is created to share my personal life, education,
-family, friends, interests, achievements, and my advocacy for social change.
-Through this, you will know more about me as a student, daughter,
-friend, and as a person with dreams and goals in life.
+This website is created to share my personal life, education, family, friends, interests, achievements, and my advocacy for social change.
+Through this, you will know more about me as a student, daughter, friend, and as a person with dreams and goals in life.
 </p>
 
-<div class="info">
+<div class="info-grid">
 
-<div class="box">
-<strong>Name:</strong><br>
+<div class="card">
+<strong>Name</strong><br>
 Roxanne B. Figuro
 </div>
 
-<div class="box">
-<strong>Age:</strong><br>
+<div class="card">
+<strong>Age</strong><br>
 19 Years Old
 </div>
 
-<div class="box">
-<strong>Birthdate:</strong><br>
+<div class="card">
+<strong>Birthdate</strong><br>
 September 01, 2006
 </div>
 
-<div class="box">
-<strong>Favorite Colors:</strong><br>
-Pink & Yellow 💖💛
+<div class="card">
+<strong>Favorite Colors</strong><br>
+Pink 💗 & Yellow 💛
 </div>
 
 </div>
 
 </div>
+
 </section>
 
-<section id="education" class="section">
+<!-- EDUCATION -->
+
+<section class="section" id="education">
+
 <h2>🎓 Educational Background</h2>
 
-<div class="education-item">
+<div class="education">
 <h3>GS (Elementary)</h3>
 <p>
 I completed my elementary education at Sumnanga Elementary School.
-This is where I learned the basic foundations of reading, writing,
-and mathematics. My elementary years helped me build discipline,
-confidence, and the habit of learning every day.
+This is where I learned the basic foundations of reading, writing, and mathematics.
+My elementary years helped me build discipline, confidence, and the habit of learning every day.
 </p>
 </div>
 
-<div class="education-item">
+<div class="education">
 <h3>HS (High School)</h3>
 <p>
 I studied high school at Sabtang National School of Fisheries.
 </p>
 </div>
 
-<div class="education-item">
+<div class="education">
 <h3>SHS (Senior High School)</h3>
 <p>
 I completed my senior high school at Our Lady of Perpetual Succor College.
 </p>
 </div>
 
-<div class="education-item">
+<div class="education">
 <h3>College</h3>
 <p>
-I am currently a 1st Year College Student at
-Lyceum of the Philippines University – Manila.
+I am currently a 1st Year College Student at Lyceum of the Philippines University – Manila.
 </p>
 </div>
 
 </section>
 
-<section id="family" class="section">
+<!-- FAMILY -->
+
+<section class="section" id="family">
+
 <h2>👨‍👩‍👧‍👦 Family Menu</h2>
 
 <ul class="family-list">
@@ -305,46 +341,64 @@ Lyceum of the Philippines University – Manila.
 
 </section>
 
-<section id="collection" class="section">
-<h2>💖 Collection Menu</h2>
+<!-- COLLECTIONS -->
+
+<section class="section" id="collection">
+
+<h2>💖 Collections & Interests</h2>
 
 <div class="collection-grid">
 
 <div class="collection-card">
-👗
+<span>👗</span>
 <h3>Fashion & Styling</h3>
-<p>Expressing creativity through outfits and personal style.</p>
 </div>
 
 <div class="collection-card">
-✈️
-<h3>Travel</h3>
-<p>Exploring new places and creating unforgettable memories.</p>
+<span>✈️</span>
+<h3>Travel to New Places</h3>
 </div>
 
 <div class="collection-card">
-🧴
+<span>🧴</span>
 <h3>Skincare & Self-Care</h3>
-<p>Maintaining wellness, confidence, and healthy habits.</p>
 </div>
 
 <div class="collection-card">
-📸
+<span>📸</span>
 <h3>Aesthetic Photography</h3>
-<p>Capturing beautiful moments and artistic scenery.</p>
 </div>
 
 <div class="collection-card">
-🖤💗
+<span>🖤💗</span>
 <h3>BLACKPINK</h3>
-<p>Enjoying music, performances, and inspiration from BLACKPINK.</p>
 </div>
 
 <div class="collection-card">
-🎤
+<span>🎤</span>
 <h3>Sabrina Carpenter</h3>
-<p>Listening to music and following her creative journey.</p>
 </div>
+
+</div>
+
+</section>
+
+<!-- GALLERY -->
+
+<section class="section" id="gallery">
+
+<h2>📸 My Gallery</h2>
+
+<div class="gallery">
+
+<!-- Replace with your photos -->
+
+<img src="gallery1.jpg" alt="">
+<img src="gallery2.jpg" alt="">
+<img src="gallery3.jpg" alt="">
+<img src="gallery4.jpg" alt="">
+<img src="gallery5.jpg" alt="">
+<img src="gallery6.jpg" alt="">
 
 </div>
 
@@ -353,19 +407,23 @@ Lyceum of the Philippines University – Manila.
 </div>
 
 <footer>
-🎀 Made with Love by Roxanne B. Figuro | Strawberry Matcha Coquette Theme 🎀
+🎀 Made with Love by Roxanne B. Figuro 🎀
 </footer>
 
 <script>
-document.querySelectorAll('nav a').forEach(anchor=>{
-anchor.addEventListener('click',function(e){
-e.preventDefault();
-document.querySelector(this.getAttribute('href'))
-.scrollIntoView({
-behavior:'smooth'
+
+const galleryImages=document.querySelectorAll('.gallery img');
+
+galleryImages.forEach(img=>{
+
+img.addEventListener('click',()=>{
+
+window.open(img.src,'_blank');
+
 });
+
 });
-});
+
 </script>
 
 </body>
