@@ -393,12 +393,12 @@ I am currently a 1st Year College Student at Lyceum of the Philippines Universit
 
 <!-- Replace with your photos -->
 
-<img src="gallery1.jpg" alt="">
-<img src="gallery2.jpg" alt="">
-<img src="gallery3.jpg" alt="">
-<img src="gallery4.jpg" alt="">
-<img src="gallery5.jpg" alt="">
-<img src="gallery6.jpg" alt="">
+<img src="att.HwpwiVKIFM0w1qGpImPJ049Ev3tFhenZAWlSaPML-iM.jpeg" alt="">
+<img src="att.HwpwiVKIFM0w1qGpImPJ049Ev3tFhenZAWlSaPML-iM.jpeg" alt="">
+<img src="att.HwpwiVKIFM0w1qGpImPJ049Ev3tFhenZAWlSaPML-iM.jpeg" alt="">
+<img src="att.tfq95l97-SHYqIn3on4MhEQsKxnA96QO9jwyyOAYCug.jpeg" alt="">
+<img src="att.yU5sd2U6nFkEWippVgGJ2NdvNSA5ke1IHfa94nbZ5mU.jpeg" alt="">
+<img src="att.-n7EC73UwyL-oHKDlfFri2blUXJMIYCREyd3K0nMFlw.jpeg" alt="">
 
 </div>
 
