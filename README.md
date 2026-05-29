@@ -251,7 +251,7 @@ margin:8px;
 <!-- CHANGE THIS TO YOUR PHOTO -->
 <img src="att._tPH1nf4hrcZz_uwAIZO3CXXGj148E3thXRTp4pZJUM.jpeg" alt="Profile Photo">
 
-<h2>Welcome Message</h2>
+<h2></h2>
 
 <p>
 Hi! Welcome to my personal website.
