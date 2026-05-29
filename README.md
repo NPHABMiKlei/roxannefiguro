@@ -201,7 +201,7 @@ font-size:2.2rem;
 
 <header>
 <h1>🎀 Roxanne B. Figuro 🎀</h1>
-<p>Strawberry Matcha Coquette Personal Website</p>
+<p>Personal Website</p>
 </header>
 
 <nav>
@@ -217,7 +217,7 @@ font-size:2.2rem;
 <div class="profile-card">
 
 <!-- Replace profile.jpg with your image -->
-<img src="profile.jpg" alt="Roxanne">
+<img src="att._tPH1nf4hrcZz_uwAIZO3CXXGj148E3thXRTp4pZJUM.jpeg" alt="Roxanne">
 
 <h2>Welcome Message</h2>
 
