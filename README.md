@@ -399,9 +399,6 @@ I am currently a 1st Year College Student at Lyceum of the Philippines Universit
 <img src="att.yU5sd2U6nFkEWippVgGJ2NdvNSA5ke1IHfa94nbZ5mU.jpeg" alt="">
 <img src="att.-n7EC73UwyL-oHKDlfFri2blUXJMIYCREyd3K0nMFlw.jpeg" alt="">
 
-
-</div>
-
 </section>
 
 <!-- ADVOCACY -->
@@ -410,10 +407,11 @@ I am currently a 1st Year College Student at Lyceum of the Philippines Universit
 
 <h2> Sustainable Developmental Goals </h2>
 <p>
-
-<h3>I believe that everyone can contribute to making the world a better place. 
+I believe that everyone can contribute to making the world a better place. 
 The Sustainable Development Goals (SDGs) inspire me to be more responsible, caring, and mindful of my actions. By supporting quality education, protecting the environment, promoting equality, and helping those in need, we can create positive change in our communities. Through awareness and collective effort, we can work toward a more sustainable, inclusive, and prosperous future for everyone.
-May earth and trees </h3>
+
+  
+May earth and trees
   
 </div>
 
@@ -440,6 +438,3 @@ window.open(img.src,'_blank');
 });
 
 </script>
-
-</body>
-</html>
