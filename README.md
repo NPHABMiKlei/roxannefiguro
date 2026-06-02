@@ -403,6 +403,7 @@ I am currently a 1st Year College Student at Lyceum of the Philippines Universit
 
 </div>
 
+</section>
 
 <!-- ADVOCACY -->
 
@@ -416,10 +417,9 @@ The Sustainable Development Goals (SDGs) inspire me to be more responsible, cari
 May earth and trees
 </div> 
 
-</div>
-
 </section>
 
+</div>
 
 <footer>
 🎀 Made with Love by Roxanne B. Figuro 🎀
