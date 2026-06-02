@@ -400,7 +400,6 @@ I am currently a 1st Year College Student at Lyceum of the Philippines Universit
 <img src="att.yU5sd2U6nFkEWippVgGJ2NdvNSA5ke1IHfa94nbZ5mU.jpeg" alt="">
 <img src="att.-n7EC73UwyL-oHKDlfFri2blUXJMIYCREyd3K0nMFlw.jpeg" alt="">
 
-</div>
 
 </div>
 
@@ -408,7 +407,7 @@ I am currently a 1st Year College Student at Lyceum of the Philippines Universit
 
 <!-- ADVOCACY -->
 
-<section class="section" id="advocacy">
+<div id="advocacy" class="tab-content">
 
 <h2> Sustainable Developmental Goals </h2>
 <p>
