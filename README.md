@@ -410,13 +410,12 @@ I am currently a 1st Year College Student at Lyceum of the Philippines Universit
 
 <section class="section" id="advocacy">
 
-<h2> Advocacy</h2>
+<h2> Sustainable Developmental Goals </h2>
+<p>
 
-<div class="advocacy">
+I believe that everyone can contribute to making the world a better place. 
+The Sustainable Development Goals (SDGs) inspire me to be more responsible, caring, and mindful of my actions. By supporting quality education, protecting the environment, promoting equality, and helping those in need, we can create positive change in our communities. Through awareness and collective effort, we can work toward a more sustainable, inclusive, and prosperous future for everyone.
 
-Sustainable Developmental Goals
-
-I believe that everyone can contribute to making the world a better place. The Sustainable Development Goals (SDGs) inspire me to be more responsible, caring, and mindful of my actions. By supporting quality education, protecting the environment, promoting equality, and helping those in need, we can create positive change in our communities. Through awareness and collective effort, we can work toward a more sustainable, inclusive, and prosperous future for everyone.
 
 May earth and trees
 </div>
