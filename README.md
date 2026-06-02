@@ -385,6 +385,7 @@ I am currently a 1st Year College Student at Lyceum of the Philippines Universit
 
 <!-- GALLERY -->
 
+<section class="section" id="gallery">
 
 <h2>📸 My Gallery</h2>
 
@@ -402,7 +403,6 @@ I am currently a 1st Year College Student at Lyceum of the Philippines Universit
 
 </div>
 
-</section>
 
 <!-- ADVOCACY -->
 
@@ -420,7 +420,6 @@ May earth and trees
 
 </section>
 
-</div>
 
 <footer>
 🎀 Made with Love by Roxanne B. Figuro 🎀
